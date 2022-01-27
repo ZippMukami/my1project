@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;500;700&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-.navigation{
+
+.navigation {
     display: flex;
     justify-content: flex-end;
-   
+
 }
 
-.navigation .logo h2{
+.navigation .logo h2 {
     font-family: 'Lobster';
 }
 
-.navigation .logo{
+.navigation .logo {
     display: flex;
     justify-content: flex-start;
     margin: auto;
@@ -26,14 +27,16 @@
     padding: 20px;
     align-items: center;
 }
-span{
+
+span {
     color: orangered;
 }
 
- 
-ul{
+
+ul {
     list-style-type: none;
 }
+
 .nav-link .links {
     display: flex;
     flex-direction: row;
@@ -44,27 +47,59 @@ ul{
 
 }
 
-.nav-link ul .links li a{
+.nav-link ul .links li a {
     list-style: none;
     text-decoration: none;
 }
-.nav-link ul .links li a:hover{
-    border-bottom:3px solid orangered;
+
+.nav-link ul .links li a:hover {
+    border-bottom: 3px solid orangered;
 }
-.nav-link .links img{
+
+.nav-link .links img {
     width: 30px;
     height: 30px;
     margin-top: 15px;
 }
-.nav-link .links li{
+
+.nav-link .links li {
     display: inline-flex;
     justify-content: space-between;
     padding: 20px;
 }
 
-.words img{
-width: 300px;
+.words img {
+    width: 400px;
+    margin-right: 200px;
 }
-.words {
 
+.words {
+    display: flex;
+    justify-content: space-between;
+}
+
+.words .left{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.words h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.words p {
+    font-size: 400;
+    margin-top: 20px;
+}
+
+.words .left button{
+    margin-top: 100px;
+    margin-left: 100px;
+    
+    
+}
+
+button{
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
 }
