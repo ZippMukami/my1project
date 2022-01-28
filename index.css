@@ -10,7 +10,7 @@
 .navigation {
     display: flex;
     justify-content: flex-end;
-
+    margin-bottom: 0px;
 }
 
 .navigation .logo h2 {
@@ -71,6 +71,7 @@ ul {
 .words img {
     width: 400px;
     margin-right: 200px;
+    margin-bottom: 0px;
 }
 
 .words {
@@ -103,7 +104,7 @@ ul {
 button {
     padding: 10px 10px 10px 10px;
     border-radius: 10px 10px 10px 10px;
-    background-color: orangered;
+    background-color: #F6B400;
 
 }
 
@@ -122,22 +123,23 @@ section .Services {
     background-color: #ecfcfc;
 
 }
+
 .Services {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   margin-top: 300px;
-   margin-left: 0px;
-   margin-right: 0px;
-   padding: 20px;
-   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 300px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 20px;
+
 }
 
 .Services .S1 img {
     width: 50px;
     height: 50px;
     justify-content: center;
-    
+
 }
 
 .Services .S2 img {
@@ -159,7 +161,7 @@ section .Services {
     justify-content: center;
 }
 
-.Services .S2{
+.Services .S2 {
     width: 300px;
     border: 2px solid brown;
     padding: 50px;
@@ -167,11 +169,410 @@ section .Services {
     border-radius: 10px;
 }
 
-.Services .S1{
+.Services .S1 {
     width: 300px;
     border: 2px solid brown;
     padding: 50px;
     margin: 20px;
     border-radius: 10px;
 }
-  
+
+.Menu h2 {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    text-decoration: underline 5px solid orangered;
+    ;
+}
+
+.Menu h2 span {
+    color: yellow;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    justify-content: space-between;
+}
+
+.Burger1 h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: maroon;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imageDB1 img {
+    width: 150px;
+    height: 150px;
+}
+
+.Burger1 .shop1 img {
+    width: 30px;
+    height: 30px;
+}
+
+.shop1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-top: 5px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.Burger1 {
+    width: 300px;
+    border: 2px groove lightblue;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.Burger2 h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: maroon;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imageDB2 img {
+    width: 150px;
+    height: 150px;
+}
+
+.Burger2 .shop2 img {
+    width: 30px;
+    height: 30px;
+}
+
+.shop2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-top: 5px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.shop2 button {
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px 10px 10px 10px;
+    background-color:lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Burger2 {
+    width: 300px;
+    border: 2px groove lightblue;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.Burger3 h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: maroon;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imageDB3 img {
+    width: 150px;
+    height: 150px;
+}
+
+.Burger3 .shop3 img {
+    width: 30px;
+    height: 30px;
+}
+
+.shop3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-top: 5px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Burger3 {
+    width: 300px;
+    border: 2px groove lightblue;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    justify-content: space-between;
+}
+
+.Burger4 h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: maroon;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imageDB4 img {
+    width: 150px;
+    height: 150px;
+}
+
+.Burger4 .shop4 img {
+    width: 30px;
+    height: 30px;
+}
+
+.shop4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-top: 5px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.Burger4 {
+    width: 300px;
+    border: 2px groove lightblue;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.Burger5 h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: maroon;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imageDB5 img {
+    width: 150px;
+    height: 150px;
+}
+
+.Burger5 .shop5 img {
+    width: 30px;
+    height: 30px;
+}
+
+.shop5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-top: 5px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Burger6 .shop6 img {
+    width: 30px;
+    height: 30px;
+}
+
+.Burger5 {
+    width: 300px;
+    border: 2px groove lightblue;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.Burger6 h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: maroon;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imageDB6 img {
+    width: 150px;
+    height: 150px;
+}
+
+.Burger6 .shop6 img {
+    width: 30px;
+    height: 30px;
+
+}
+
+.shop6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.Burger6 {
+    width: 300px;
+    border: 2px groove lightblue;
+    padding: 50px;
+    margin: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+
+.double-decker {
+    background-color: rgb(227, 247, 245);
+}
+
+.double-decker .double-words h1 span {
+    color: yellow;
+}
+
+.double-decker .double-words {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start
+}
+
+.double-decker .double-words h1 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.double-decker .double-words p {
+    padding-top: 20px;
+    display: flex;
+    justify-content: left;
+    font-size: 20px;
+    font-weight: 150px;
+    margin-left: 200px;
+}
+
+.double-decker .image img {
+    width: 350px;
+    height: 450px;
+    padding: 0px;
+}
+
+.double-decker {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Info{
+    background-color: #F6B400 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Info h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.play-store img{
+    width: 150px;
+    height: 50px;
+    margin-left: 0px;
+    margin-right: 50px;
+    margin-top: 300px;
+    
+    
+}
+
+.pics img{
+   margin-right: 20px;
+   margin-left: 20px;
+   margin-bottom: 30px;
+   margin-top: 30px;
+
+}
+
+.foot-nav .logo{
+    font-family: 'Lobster';
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.foot-nav .site-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.foot-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(224, 247, 244);
+    padding-bottom: 50px;
+    padding-top: 20px ;
+}
+
+.newsl span{
+    background-color: #F6B400;
+}
+
+.newsl h2{
+    background-color: white;
+}
+ footer ul li img{
+     width: 20px;
+     height: 20px;
+     display: flex;
+    
+
+ }
+footer li{
+    display: flex;
+    flex-direction: row;
+}
+
