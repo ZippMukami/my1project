@@ -1,4 +1,4 @@
-# Portfolio
+# Burger Palace Landing Page
 
 ##### By Zipporah Mukami
 ### It is a description of Burger Palace's landing page.
