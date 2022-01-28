@@ -7,15 +7,23 @@
     padding: 0;
 }
 
+body header{
+    margin-bottom: 0px;
+}
 .navigation {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 0px;
+    background-image: linear-gradient(101deg, #ffffff 64.7%, #f4b956 0%) ;
 }
 
 .navigation .logo h2 {
     font-family: 'Lobster';
 }
+
+.navigation{
+    background-color: linear-gradient(rgb #fffff0 #ffffff00 0%)
+linear-gradient (85deg )}
 
 .navigation .logo {
     display: flex;
@@ -27,6 +35,7 @@
     padding: 20px;
     align-items: center;
 }
+
 
 span {
     color: orangered;
@@ -77,6 +86,7 @@ ul {
 .words {
     display: flex;
     justify-content: space-between;
+    background-image: linear-gradient(101deg, #ffffff 59.19%, #f4b956 0%) ;
 }
 
 .words .left {
@@ -128,10 +138,10 @@ section .Services {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 300px;
+    margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    padding: 20px;
+    padding: 200px;
 
 }
 
@@ -568,11 +578,5 @@ section .Services {
      width: 20px;
      height: 20px;
      display: flex;
-    
-
+   
  }
-footer li{
-    display: flex;
-    flex-direction: row;
-}
-
