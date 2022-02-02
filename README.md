@@ -61,5 +61,8 @@ SOFTWARE.
 ## Authors Info
 Zipporah Mukami
 https:/github.com/ZippMukami
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> bba6b1e12a1e9b7943526d2e9f99dff1899a14ca
